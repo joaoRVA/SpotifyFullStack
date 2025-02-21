@@ -35,8 +35,8 @@ const Player = ({audio, duration, randomIdFromArtist, randomIdFromArtist2}) => {
 
         
     }
-    console.log(audioPlayer.current.currentTime)
-    console.log(timeinSeconds(duration))
+    // console.log(audioPlayer.current.currentTime)
+    // console.log(timeinSeconds(duration))
 
     useEffect(() => {
         const idInterval = setInterval(() => {
